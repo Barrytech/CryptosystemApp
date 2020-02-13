@@ -8,8 +8,8 @@ function App() {
         <
         header className = "App-header" >
         <
-        p > We will be using Ceasar cipher and Rail - fence < /p> <
-        /header> <
+        p > We will be using Ceasar cipher and Rail - fence < /p> < /
+        header > <
         /div>
     );
 }
