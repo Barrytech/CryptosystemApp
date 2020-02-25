@@ -1,4 +1,5 @@
 //A Java Program to illustrate Caesar Cipher Technique 
+import java.util.Scanner;
 class CaesarCipher 
 { 
     // Encrypts text using a shift od s 
@@ -34,7 +35,7 @@ class CaesarCipher
         String text  = choice.nextString(); 
       
        ; 
-        System.out.println("Text  : " + text));
+        System.out.println("Text  : " + text);
         System.out.println("Shift : " + s); 
         System.out.println("Cipher: " + encrypt(text, s)); 
     } 
